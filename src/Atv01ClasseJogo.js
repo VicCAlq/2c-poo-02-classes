@@ -15,3 +15,31 @@
  * Lembre-se de exportar a classe "Jogo" no final do arquivo usando
  * "export default Jogo"
  */
+class Jogo {
+ constructor (
+    nomeDoJogo, tipo, qtdJogadores, dificuldade, fases, fasesConcluidas, zerado,
+ )
+}
+ if (
+    typeof(nomeDoJogo)
+  ||  typeof(tipo)
+    ||typeof(qtdJogadores)
+ ||   typeof(dificuldade)
+  ||  typeof(fases)
+   || typeof(fasesConcluidas)
+   || typeof(zerado)
+    )
+ {
+    console.log()
+    return
+ }
+  this.nomeDoJogo = nomeDoJogo
+  this.tipo = tipo
+  this.qtdJogadores = qtdJogadores
+  this.dificuldade = dificuldade
+  this.fases = fases
+  this.fasesConcluidas = fasesConcluidas
+
+   const Jogo = new Jogo (
+    "jogo de gg", "Ação", "08", "03", "08", "00"
+   )

@@ -12,3 +12,22 @@
  * Lembre-se de exportar a classe "PerfilJogador" no final do arquivo usando
  * "export default PerfilJogador"
  */
+class Jogador{
+ constructor (
+    nome, idade, 
+ )
+}
+ if (
+    typeof(nome)
+   || typeof(idade)
+    )
+ {
+    console.log()
+    return
+ }
+  this.nome = nome
+ this.idade = idade
+
+   const Jogo = new Jogo (
+    "Nome", "idade", 
+   )
