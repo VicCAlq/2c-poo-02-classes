@@ -15,3 +15,24 @@
  * Lembre-se de exportar a classe "Jogo" no final do arquivo usando
  * "export default Jogo"
  */
+
+class Jogo {
+    constructor(
+        nomeDoJogo, tipo, qtdJogadores, dificuldade, fases){
+        this.nomeDoJogo = nomeDoJogo
+        this.tipo = tipo
+        this.qtdJogadores = qtdJogadores
+        this.dificuldade = dificuldade
+        this.fases = fases
+        this.fasesConcluidas = 0
+        this.zerado = false
+    }
+}
+
+const newGame =  new Jogo(
+    "Hollonaiti", "Metroidvania", 1, 3, 1
+)
+
+export default Jogo
+
+console.table(newGame)

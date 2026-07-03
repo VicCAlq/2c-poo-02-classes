@@ -12,3 +12,48 @@
  * Lembre-se de exportar a classe "PerfilJogador" no final do arquivo usando
  * "export default PerfilJogador"
  */
+class Jogo {
+    constructor(
+        nomeDoJogo, tipo, qtdJogadores, dificuldade, fases){
+        this.nomeDoJogo = nomeDoJogo
+        this.tipo = tipo
+        this.qtdJogadores = qtdJogadores
+        this.dificuldade = dificuldade
+        this.fases = fases
+        this.fasesConcluidas = 0
+        this.zerado = false
+    }
+
+    jogar(minutos) {
+        this.fasesConcluidas += Math.floor(minutos / 10) * (1 / this.dificuldade)
+        if (this.fasesConcluidas >= this.fases) {
+            this.fasesConcluidas = this.fases
+            this.zerado = true
+        }
+    }   
+}
+
+const newGame =  new Jogo(
+    "Hollonaiti", "Metroidvania", 1, 3, 1
+)
+
+newGame.jogar(100)
+
+console.table(newGame)
+
+class PerfilJogador {
+    constructor(
+        jogador, email, jogos, amigos){
+        this.jogador = jogador
+        this.email = email
+        this.jogos = jogos
+        this.amigos = amigos
+}
+}
+const newPerfil =  new PerfilJogador(
+    "ManoCoxas", "manocoxas7416@gmail.com", "bfvjbvh", "fbuhefb"
+)
+
+export default PerfilJogador
+
+console.table(newPerfil)
