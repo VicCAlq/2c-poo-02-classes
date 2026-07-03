@@ -16,3 +16,34 @@
  * "export default Jogo"
  */
 
+class Jogo{
+    constructor(
+        nomeDoJogo,
+        tipo,
+        qtdJogadores,
+        dificuldade,
+        fases,
+    ){
+        if(
+            typeof(nomeDoJogo) !== "string"
+            || typeof(tipo) !== "string"
+            || typeof(qtdJogadores) !== "number"
+            || typeof(dificuldade) !== "number"
+            || typeof(fases) !== "number"
+        ){
+            console.log(`Os dados informados não estão no formato correto:
+        titulo: texto, tipo: texto, duracao: número, assitido: booleano ou vazio`)
+        return
+        }
+
+        this.nomeDoJogo = nomeDoJogo
+        this.tipo = tipo
+        this.qtdJogadores = qtdJogadores
+        this.dificuldade = dificuldade
+        this.fases = fases
+        this.fasesConcluídas = 0
+        this.zerado = false
+    }
+    
+}
+export default Jogo
