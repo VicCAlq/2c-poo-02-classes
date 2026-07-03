@@ -15,3 +15,30 @@
  * Lembre-se de exportar a classe "Jogo" no final do arquivo usando
  * "export default Jogo"
  */
+
+class Jogo{
+    constructor(nomeDoJogo, tipo, qtdJogadores, dificuldade, fases, fasesConcluidas, zerado){
+        if(
+            typeof(nomeDoJogo) !== "string"
+            || typeof(tipo) !== "string"
+            || typeof(qtdJogadores) !== "number"
+            || typeof(dificuldade) !== "number"
+            || typeof(fases) !== "number"
+            || typeof(fasesConcluidas) !== "number"
+        ){
+            console.log(`Os dados informados não estão no formato correto:nomeDoJogo: texto, tipo: texto, qtdJogadores: número, dificuldade: número,fases: número,fasesConcluidas: número, zerado: booleano ou vazio`)
+            return
+        }
+
+        this.nomeDoJogo = nomeDoJogo
+        this.tipo = tipo
+        this.qtdJogadores = qtdJogadores
+        this.dificuldade = dificuldade
+        this.fases = fases
+        this.fasesConcluidas = fasesConcluidas
+        this.zerado = zerado || false
+    }
+
+}
+
+export default Jogo
