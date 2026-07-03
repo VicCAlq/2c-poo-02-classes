@@ -12,3 +12,30 @@
  * Lembre-se de exportar a classe "PerfilJogador" no final do arquivo usando
  * "export default PerfilJogador"
  */
+
+import Jogo from "./Atv01ClasseJogo";
+
+class PerfilJogador {
+    constructor(jogador, email, jogos=[], amigos=[]){
+        this.jogador = jogador;
+        this.email = email;
+        this.jogos = jogos;
+        this.amigos = amigos;
+    }
+
+    adicionarAmigo(novoAmigo){
+        this.amigos.push(novoAmigo);
+    }
+}
+
+const seaBin = new Jogo ("SeaBin", "Aventura", 1, 8, 1);
+const kingMedieval = new Jogo ("kingMedieval", "Aventura", 3, 6, 5);
+
+const Juliano = new PerfilJogador("Juliano", "JulianoPablinho@gmail.com", [seaBin, kingMedieval])
+
+const outroAmigo = new PerfilJogador ("Pablo", "pabloDamasco@gmail.com", [kingMedieval])
+Juliano.adicionarAmigo(outroAmigo)
+
+console.log(Juliano)
+
+export default PerfilJogador;
