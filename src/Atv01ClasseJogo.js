@@ -15,3 +15,21 @@
  * Lembre-se de exportar a classe "Jogo" no final do arquivo usando
  * "export default Jogo"
  */
+
+class Jogo {
+    constructor(nome, tipo, qtdJogadores, dificuldade, qtdFases) {
+        this.nomeDoJogo = nome
+        this.tipo = tipo
+        this.qtdJogadores = qtdJogadores
+        this.dificuldade = dificuldade
+        this.fases = qtdFases
+
+        this.fasesConcluidas = 0
+        this.zerado = false
+    }
+}
+
+const sonicCD = new Jogo("Sonic CD", "Plataforma", 100000, 2, 35)
+console.table(sonicCD)
+
+export default Jogo
