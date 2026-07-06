@@ -40,9 +40,9 @@ class Jogo{
     }
     jogar(minutos){
         this.minutos = minutos
-        this.fasesConcluídas = minutos / 10 / dificuldade
+        this.fasesConcluídas = minutos / 10 / this.dificuldade
         this.fasesConcluídas = Math.floor(this.fasesConcluídas)
-        if(this.fasesConcluídas == fases){
+        if(this.fasesConcluídas >= this.fases){
             this.zerado = true
         }
     }
