@@ -19,10 +19,16 @@ class PerfilJogador {
         this.jogador = jogador;
         this.email = email;
         this.jogos = [];
-        this.amigos = amigos;
+        this.amigos = [];
     }
 
-    tempoJogado(tempo){}
+    function tempoJogado() {
+        tempo of this.jogos
+    }
+
+    function zerados() {
+        "De acordo com o professor, é melhor deixar em branco do que pegar da IA"
+    }
 }
 
 export default PerfilJogador;
