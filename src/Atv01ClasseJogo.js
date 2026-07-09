@@ -15,3 +15,27 @@
  * Lembre-se de exportar a classe "Jogo" no final do arquivo usando
  * "export default Jogo"
  */
+
+class Jogo{
+    constructor(
+      nomeDoJogo,
+      tipo,
+      qtdJogadores,  
+      dificuldade, 
+      fases,
+      fasesConcluidas, 
+      zerado 
+    )
+         
+    {
+      this.nomeDoJogo = "minecraft", 
+      this.tipo = "sandbox", 
+      this.qtdJogadores = 1, 
+      this.dificuldade = 1,
+      this.fases = 3, 
+      this.fasesConcluidas = 0, 
+      this.zerado = false 
+    }
+}
+
+export default Jogo
