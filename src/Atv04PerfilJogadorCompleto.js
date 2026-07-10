@@ -30,7 +30,7 @@
             return total;
         }
 
-        zerados() {
+        zerados() { 
             let total = 0;
 
             for (let jogo of this.jogos) {

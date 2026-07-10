@@ -33,7 +33,7 @@ class Jogo{
          )
            return
          
-    this.nomeDoJogo = nomeDoJogo
+     this.nomeDoJogo = nomeDoJogo
     this.tipo = tipo
     this.qtdJogadores = qtdJogadores
     this.dificuldade = dificuldade

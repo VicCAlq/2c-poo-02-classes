@@ -17,4 +17,4 @@ class PerfilJogador {
             this.jogador = jogador;
             this.email = email;
             this.jogos = [];
-            this.amigos = [];
+            this.amigos = []; 

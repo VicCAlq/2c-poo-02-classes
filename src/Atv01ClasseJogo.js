@@ -42,6 +42,6 @@
  }
   } 
  
-        const jogo = new Jogo(
+        const Jogo = new Jogo(
             "Snake", "ação", 2, 5, 25, 0
-        )
+        ) 
