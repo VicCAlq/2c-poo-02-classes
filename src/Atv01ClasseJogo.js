@@ -15,41 +15,33 @@
  * Lembre-se de exportar a classe "Jogo" no final do arquivo usando
  * "export default Jogo"
  */
-class Jogo{
+
+class Jogo {
     constructor(
         nomeDoJogo,
         tipo,
         qtdJogadores,
         dificuldade,
-        fases,
         fasesConcluidas,
-    ){
-         if(
-            typeof(nomeDoJogo) !== "string"
-            ||typeof(tipo) !== "string"
-            ||typeof(qtdJogadores) !== "number"
-            ||typeof(dificuldade) !== "number"
-            ||typeof(fases) !== "number"
-            ||typeof(fasesConcluidas) !== "number"
-         )
-         console.log(
-            "nomeDoJogo: texto, tipo: texto, qtdJogadores: numero, dificuldade: numero, fases: numero, fasesConcluidas: numero"
-         )
-           return
-         
-    this.nomeDoJogo = nomeDoJogo
-    this.tipo = tipo
-    this.qtdJogadores = qtdJogadores
-    this.dificuldade = dificuldade
-    this.fases = fases
-    this.fasesConcluidas = 0
-    this.zerado = false
+        zerado,
+        fases
 
- const Jogo = new Jogo(
-    "Jogo do time 3", "Ação", 5, 3, 3, 0
- )
-
+    ) {
+        this.nomeDoJogo = nomeDoJogo;
+        this.tipo =  tipo
+        this.qtdJogadores = qtdJogadores
+        this.dificuldade = dificuldade
+        this.fasesConcluidas = 0
+        this.zerado = false
+        this.fases = fases
     }
 
- }
-    
+    jogar(minutos) {
+        this.fasesConcluidas += Math.floor(minutos / 10) * (1 / this.dificuldade);
+        if(this.fasesConcluidas >= this.fases) {
+            this.zerado = true
+        }
+    }
+}
+
+export default Jogo;
