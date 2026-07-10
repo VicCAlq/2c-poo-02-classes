@@ -16,5 +16,5 @@ class PerfilJogador {
         constructor(jogador, email){
             this.jogador = jogador;
             this.email = email;
-            this.jogos = [];
+            this.jogos = []; 
             this.amigos = []; 
