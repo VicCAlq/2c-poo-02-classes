@@ -15,3 +15,33 @@
  * Lembre-se de exportar a classe "Jogo" no final do arquivo usando
  * "export default Jogo"
  */
+
+    class Jogo {
+         constructor (  
+            nomeDoJogo, tipo, qtdJogadores, dificuldade, fases, fasesConcluidas,
+        ){
+    
+        if (
+              typeof(nomeDoJogo) !== "string"
+            ||typeof(tipo) !== "string"
+            ||typeof(qtdJogadores) !== "number"
+            ||typeof (dificuldade)  !== "number"     
+            ||typeof (fases) !== "number"
+            ||typeof(fasesConcluidas) !== "number"
+        ) {
+        
+            console.log("nomeDoJogo: texto, tipo:texto, qtdJogadores:numero, dificuldade:numero, fases:numero, fasesConcluidas:numero,")
+      return
+    }
+        this.nomeDoJogo = nomeDoJogo
+        this.tipo = tipo
+        this.qtdJogadores = qtdJogadores
+        this.dificuldade = dificuldade
+        this.fases = fases
+        this.fasesConcluidas = 0;
+ }
+  } 
+ 
+        const jogo = new Jogo(
+            "Snake", "ação", 2, 5, 25, 0
+        )
