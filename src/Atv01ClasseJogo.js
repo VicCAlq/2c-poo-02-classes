@@ -34,4 +34,4 @@ class Jogo{
       this.fasesConcluidas = 0 
       this.zerado = false
     }
-  export default jogo;
+  export default Jogo;
