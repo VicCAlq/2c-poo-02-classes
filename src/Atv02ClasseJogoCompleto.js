@@ -34,4 +34,4 @@ class Jogo{
         this.zerado = true;}
     }
 }
-  export default jogo;
+  export default Jogo;
