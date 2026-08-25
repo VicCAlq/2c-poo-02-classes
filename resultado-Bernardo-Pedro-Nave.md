@@ -1,8 +1,13 @@
-Data de atualização: Dia 24/8/2026 às 14:26 
+Data de atualização: Dia 25/8/2026 às 14:50 
 
 | Questão | Teste | Entregue | Correto | Mensagem de Erro |
 |---------|-------|----------|---------|------------------|
-| /AtvMetodoComplicado.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
-| /AtvMetodoFacil.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
-| /AtvMetodoMedio.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
-| /AtvObjeto.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| Atv01ClasseJogo | Classe "Jogo" foi criada corretamente:  | ✅ | ✅ | Sem erros |
+| Atv01ClasseJogo | Cria um jogo usando a classe Jogo | ✅ | ❌ | Error: AssertionError: expected undefined to be 'Sonic' // Object.is equality |
+| Atv01ClasseJogo | Cria um jogo usando a classe Jogo | ✅ | ❌ | Error: AssertionError: expected undefined to be 'Streets of Rage 3' // Object.is equality |
+| Atv01ClasseJogo | Cria um jogo usando a classe Jogo | ✅ | ❌ | Error: AssertionError: expected undefined to be 'Tetris' // Object.is equality |
+| Atv02ClasseJogoCompleto | Classe "Jogo" foi criada corretamente:  | ✅ | ❌ | AssertionError: expected false to be true // Object.is equality |
+| Atv02ClasseJogoCompleto | Cria um jogo usando a classe Jogo | ✅ | ❌ | Error: TypeError: __vite_ssr_import_1__.default is not a constructor |
+| Atv02ClasseJogoCompleto | Cria um jogo usando a classe Jogo | ✅ | ❌ | Error: TypeError: __vite_ssr_import_1__.default is not a constructor |
+| Atv02ClasseJogoCompleto | Cria um jogo usando a classe Jogo | ✅ | ❌ | Error: TypeError: __vite_ssr_import_1__.default is not a constructor |
+| /Atv04PerfilJogadorCompleto.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
