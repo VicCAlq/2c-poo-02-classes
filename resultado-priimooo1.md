@@ -1,4 +1,4 @@
-Data de atualização: Dia 25/8/2026 às 14:51 
+Data de atualização: Dia 25/8/2026 às 16:40 
 
 | Questão | Teste | Entregue | Correto | Mensagem de Erro |
 |---------|-------|----------|---------|------------------|
@@ -7,4 +7,8 @@ Data de atualização: Dia 25/8/2026 às 14:51
 | Atv02ClasseJogoCompleto | Cria um jogo usando a classe Jogo | ✅ | ❌ | Error: ReferenceError: fases is not defined |
 | Atv02ClasseJogoCompleto | Cria um jogo usando a classe Jogo | ✅ | ❌ | Error: ReferenceError: fases is not defined |
 | Atv02ClasseJogoCompleto | Cria um jogo usando a classe Jogo | ✅ | ❌ | Error: ReferenceError: fases is not defined |
-| /Atv04PerfilJogadorCompleto.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| /Atv03PerfilJogador.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| Atv04PerfilJogador | Classe "PerfilJogador" foi criada corretamente:  | ✅ | ❌ | AssertionError: expected false to be true // Object.is equality |
+| Atv04PerfilJogador | Cria um perfil usando a classe PerfilJogador | ✅ | ❌ | TypeError: __vite_ssr_import_2__.default is not a constructor |
+| Atv04PerfilJogador | Cria um perfil usando a classe PerfilJogador | ✅ | ❌ | TypeError: __vite_ssr_import_2__.default is not a constructor |
+| Atv04PerfilJogador | Cria um perfil usando a classe PerfilJogador | ✅ | ❌ | TypeError: __vite_ssr_import_2__.default is not a constructor |
