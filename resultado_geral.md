@@ -1,43 +1,43 @@
-Data de atualização: Dia 25/8/2026 às 14:54 
+Data de atualização: Dia 25/8/2026 às 16:42 
 
 | Aluno | Qtd. questões acertadas (de 3) | Nota total |
 |-------|---------------------------------|------------|
 | Abner Ferreira (abner-ferreira-nave) | 0 | 0.00 |
-| Amanda Vitória (amanda-vitoria-nave) | 0 | 26.67 |
-| Andrey Vieira (itzisnotavaliable) | 1 | 46.67 |
-| Arthur Emanuel (arthur-emanuel-nave) | 1 | 46.67 |
-| Arthur Lucio (arthur-lucio-nave) | 1 | 46.67 |
+| Amanda Vitória (amanda-vitoria-nave) | 2 | 73.33 |
+| Andrey Vieira (itzisnotavaliable) | 2 | 80.00 |
+| Arthur Emanuel (arthur-emanuel-nave) | 1 | 60.00 |
+| Arthur Lucio (arthur-lucio-nave) | 3 | 100.00 |
 | Artur Coelho (ArturJude) | 0 | 0.00 |
 | Beatriz Vilaça (beatriz-vilaca-nave) | 0 | 0.00 |
-| Bernardo Pedro (Bernardo-Pedro-Nave) | 0 | 20.00 |
-| Brenda Vilaça (brenda-vilaca-nave) | 0 | 6.67 |
+| Bernardo Pedro (Bernardo-Pedro-Nave) | 0 | 26.67 |
+| Brenda Vilaça (brenda-vilaca-nave) | 0 | 13.33 |
 | Brennda Rykelly (brennda-rykelly-nave) | 0 | 0.00 |
 | Bruno Gustavo (buenots) | 0 | 0.00 |
 | Caique Albuquerque (caique-albuquerque-nave) | 0 | 0.00 |
 | Cauê Ferreira (caue-ferreira-nave) | 0 | 0.00 |
 | Davi Barboza (DaviBarboza98) | 0 | 0.00 |
-| Davi Neres (davi-neres-nave) | 0 | 26.67 |
+| Davi Neres (davi-neres-nave) | 2 | 73.33 |
 | Debora Vitória (debora-vitoria-nave) | 1 | 33.33 |
-| Eduardo Oliveira (dudu-015) | 0 | 26.67 |
+| Eduardo Oliveira (dudu-015) | 2 | 73.33 |
 | Fernandes Gabriel (fernandes-gabriel-nave) | 0 | 0.00 |
 | Gabriel Fernando (gabriel-fernando-nave) | 0 | 0.00 |
-| Gabriel Primo (priimooo1) | 0 | 13.33 |
+| Gabriel Primo (priimooo1) | 0 | 20.00 |
 | Gabriel Vitor (gabriel-vitor-nave) | 0 | 0.00 |
 | Gustavo Alberto (gustavoalberto-create) | 0 | 0.00 |
 | Henrique Samuel (henriquerocha-ops) | 0 | 0.00 |
-| Isaac Andrade (Isaac-Andrade-Santos-NAVE) | 2 | 66.67 |
-| Jeniffer Dantas (jeniffer-dantas-nave) | 0 | 6.67 |
-| João Barros (Joao-Barros-NAVE) | 1 | 46.67 |
+| Isaac Andrade (Isaac-Andrade-Santos-NAVE) | 2 | 93.33 |
+| Jeniffer Dantas (jeniffer-dantas-nave) | 0 | 13.33 |
+| João Barros (Joao-Barros-NAVE) | 2 | 66.67 |
 | Jonatas Vinícius (jonatasvinicius67) | 0 | 0.00 |
-| Kamylle Vitória (Kamylle-Vitoria-Nave) | 0 | 20.00 |
-| Letícia Domingos (letletdaluz) | 0 | 26.67 |
+| Kamylle Vitória (Kamylle-Vitoria-Nave) | 0 | 26.67 |
+| Letícia Domingos (letletdaluz) | 2 | 73.33 |
 | Luan Murilo (luan-murilo-nave) | 0 | 0.00 |
 | Marcus Vinícios (marcus-vinicios-nave) | 0 | 0.00 |
-| Mateus Antônio (mateusnave) | 0 | 26.67 |
+| Mateus Antônio (mateusnave) | 2 | 73.33 |
 | Matheus Thiago (teteuzo) | 0 | 0.00 |
 | Miguel Albuquerque (miguelalbuquerque492) | 0 | 0.00 |
 | Pedro Arthur (pedro-arthur-nave) | 0 | 0.00 |
-| Pedro Victor (pedro-victor-nave) | 0 | 26.67 |
+| Pedro Victor (pedro-victor-nave) | 2 | 66.67 |
 | Renato Marques (Renato-Marques-Nave) | 0 | 0.00 |
 | Ryan Gabriel (Ryan-Nave2026) | 0 | 0.00 |
 | Samuel Erivaldo (samuelerivaldo-png) | 0 | 0.00 |
