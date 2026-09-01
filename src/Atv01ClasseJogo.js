@@ -22,6 +22,8 @@ class Jogo {
         tipo,
         qtdJogadores,
         dificuldade,
+        fasesConcluidas,
+        zerado,
         fases
 
     ) {
@@ -29,6 +31,8 @@ class Jogo {
         this.tipo =  tipo
         this.qtdJogadores = qtdJogadores
         this.dificuldade = dificuldade
+        this.fasesConcluidas = 0
+        this.zerado = false
         this.fases = fases
     }
 
