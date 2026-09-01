@@ -16,32 +16,32 @@
  * "export default Jogo"
  */
 
-    class Jogo {
-         constructor (  
-            nomeDoJogo, tipo, qtdJogadores, dificuldade, fases, fasesConcluidas,
-        ){
-    
-        if (
-              typeof(nomeDoJogo) !== "string"
-            ||typeof(tipo) !== "string"
-            ||typeof(qtdJogadores) !== "number"
-            ||typeof (dificuldade)  !== "number"     
-            ||typeof (fases) !== "number"
-            ||typeof(fasesConcluidas) !== "number"
-        ) {
-        
-            console.log("nomeDoJogo: texto, tipo:texto, qtdJogadores:numero, dificuldade:numero, fases:numero, fasesConcluidas:numero,")
-      return
-    }
-        this.nomeDoJogo = nomeDoJogo
-        this.tipo = tipo
+class Jogo {
+    constructor(
+        nomeDoJogo,
+        tipo,
+        qtdJogadores,
+        dificuldade,
+        fasesConcluidas,
+        zerado,
+        fases
+
+    ) {
+        this.nomeDoJogo = nomeDoJogo;
+        this.tipo =  tipo
         this.qtdJogadores = qtdJogadores
         this.dificuldade = dificuldade
+        this.fasesConcluidas = 0
+        this.zerado = false
         this.fases = fases
-        this.fasesConcluidas = 0;
- }
-  } 
- 
-        const Jogo = new Jogo(
-            "Snake", "ação", 2, 5, 25, 0
-        ) 
+    }
+
+    jogar(minutos) {
+        this.fasesConcluidas += Math.floor(minutos / 10) * (1 / this.dificuldade);
+        if(this.fasesConcluidas >= this.fases) {
+            this.zerado = true
+        }
+    }
+}
+
+export default Jogo;
