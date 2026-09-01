@@ -13,4 +13,4 @@
  * Lembre-se de exportar a classe "PerfilJogador" no final do arquivo usando
  * "export default PerfilJogador"
  */
--- vo nada faze
+// vo nada faze
