@@ -10,7 +10,7 @@
  * Lembre-se de exportar a classe "Jogo" no final do arquivo usando
  * "export default Jogo"
  */
-
+//o vscode ta dando na conta de isaac rs
 class Jogo {
     constructor(nomeDoJogo, tipo, qtdJogadores, dificuldade, fases) {
         this.nomeDoJogo = nomeDoJogo;
