@@ -15,7 +15,7 @@
  * Lembre-se de exportar a classe "Jogo" no final do arquivo usando
  * "export default Jogo"
  */
-
+//vscode ta dando na conta de isaac por algum motivo rs S2 tmj ai
 class Jogo {
     constructor(nomeDoJogo, tipo, qtdJogadores, dificuldade, fases) {
         this.nomeDoJogo = nomeDoJogo;
