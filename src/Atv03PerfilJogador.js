@@ -22,3 +22,4 @@ class PerfilJogador {
 }
 
 export default PerfilJogador;
+//o vscode ta dando na conta de isaac rs
