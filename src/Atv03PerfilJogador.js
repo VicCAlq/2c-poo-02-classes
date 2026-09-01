@@ -13,8 +13,12 @@
  * "export default PerfilJogador"
  */
 class PerfilJogador {
-        constructor(jogador, email){
-            this.jogador = jogador;
-            this.email = email;
-            this.jogos = []; 
-            this.amigos = []; 
+  constructor(jogador, email) {
+    this.jogador = jogador;
+    this.email = email;
+    this.jogos = [];
+    this.amigos = [];
+  }
+}
+
+export default PerfilJogador;
